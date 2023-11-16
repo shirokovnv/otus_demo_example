@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Shirokovnv\OtusDemoExample\SOLID\Principle2;
 
-class Logger
+class Dog
 {
-    public function log(string $message): void
+    public function bark(): string
     {
-        // Save message to file
+        return 'woof woof';
     }
 }
