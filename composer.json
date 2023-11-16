@@ -1,0 +1,24 @@
+{
+    "name": "shirokovnv/otus_demo_example",
+    "description": "Examples from OTUS webinar about SOLID principles",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shirokov Nickolai",
+            "email": "shirokovnv@gmail.com",
+            "homepage": "https://github.com/shirokovnv"
+        }
+    ],
+    "homepage": "https://github.com/shirokovnv/otus_demo_example",
+    "keywords": ["PHP", "SOLID", "OTUS"],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shirokovnv\\OtusDemoExample\\": "src/"
+        }
+    }
+}
