@@ -6,7 +6,7 @@ namespace Shirokovnv\OtusDemoExample\SOLID\Principle2;
 
 class Communication
 {
-    public function communicate(AnimalInterface $animal): string
+    public function communicate($animal): string
     {
         switch (true) {
             case $animal instanceof Dog:
